@@ -5,7 +5,7 @@ create table Movie(id int,title text,actor text,actress text,director text,year 
 
 insert into Movie values(1,'mersal','vijay','samantha','atlee',2017);
 insert into Movie values(2,'saamy','vikram','trisha','hari',2003);
-insert into Movie values(3,'aadhavan','surya','nayantara','ravikumar',2009)
+insert into Movie values(3,'aadhavan','surya','nayantara','ravikumar',2009);
 insert into Movie values(4,'bheemaa','vikram','trisha','lingusamy',2008);
 insert into Movie values(5,'ghilli','vijay','trisha','dharani',2004);
 insert into Movie values(6,'singam','surya','anushka','hari',2010);
@@ -13,7 +13,7 @@ insert into Movie values(6,'singam','surya','anushka','hari',2010);
 .mode column
 .headers ON
 
---Q1 Find the titles of all movies acted bu vijay.
+--Q1 Find the titles of all movies acted by vijay.
 Select title
 From Movie
 Where actor ='vijay';
